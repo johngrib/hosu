@@ -18,5 +18,7 @@ hi CursorLine guibg=#262626 ctermbg=235 term=bold cterm=bold
 hi CursorColumn guibg=#262626 ctermbg=235
 hi ColorColumn guibg=#262626 ctermbg=235
 
+hi Keyword guifg=#00d0a5 ctermfg=043
+
 " https://groups.google.com/forum/#!msg/vim_dev/afPqwAFNdrU/nqh6tOM87QUJ
 set background=dark
