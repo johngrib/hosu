@@ -14,7 +14,9 @@ if g:hosu_term_bg != s:TRANSPARENT
     hi Normal ctermbg=000
 endif
 
-
+hi CursorLine guibg=#262626 ctermbg=235 term=bold cterm=bold
+hi CursorColumn guibg=#262626 ctermbg=235
+hi ColorColumn guibg=#262626 ctermbg=235
 
 " https://groups.google.com/forum/#!msg/vim_dev/afPqwAFNdrU/nqh6tOM87QUJ
 set background=dark
